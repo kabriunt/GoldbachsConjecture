@@ -25,7 +25,7 @@ function getFirstPrimes(n) {
 
   var primes = [];
 
-  for (var i = 1; i < n; i++) {
+  for (var i = 1; i < Marh.sqrt(n); i++) {
 
     if (isPrime(i)) {
       primes.push(i);
